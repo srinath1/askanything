@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-langchain",
+  "name": "ask anything",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "ai": "^4.1.46",
+    "@langchain/openai": "^0.2.1",
+    "@radix-ui/react-icons": "^1.3.0",
+    "ai": "^3.2.14",
+    "langchain": "^0.2.8",
+    "marked": "^13.0.1",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-code-blocks": "^0.1.6",
+    "react-dom": "^18",
+    "react-textarea-autosize": "^8.5.3"
   },
   "devDependencies": {
     "@types/node": "^20",
